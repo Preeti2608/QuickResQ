@@ -1,0 +1,252 @@
+.quick-navbar { background: #111827; padding: 14px 0; box-shadow: 0 3px 15px rgba(0,0,0,.15); }
+.logo { font-size: 1.5rem; font-weight: 700; letter-spacing: .5px; }
+.logo-icon { display: inline-flex; justify-content: center; align-items: center; width: 32px; height: 32px; margin-right: 7px; background: #dc2626; color: white; border-radius: 8px; font-weight: bold; }
+.nav-link { color: #e5e7eb !important; margin-left: 15px; font-weight: 500; transition: .3s; }
+.nav-link:hover, .nav-link.active { color: #fff !important; }
+.login-nav-btn { font-weight: 600; padding: 8px 20px; border-radius: 8px; }
+.hero-section { min-height: 720px; display: flex; align-items: center; padding: 130px 0 80px; background: radial-gradient(circle at top right, rgba(220,38,38,.18), transparent 35%), #111827; color: white; }
+.hero-badge { display: inline-block; padding: 7px 14px; margin-bottom: 20px; background: rgba(220,38,38,.15); color: #fca5a5; border: 1px solid rgba(252,165,165,.25); border-radius: 50px; font-size: .85rem; font-weight: 600; }
+.hero-section h1 { font-size: clamp(2.5rem,5vw,4.5rem); font-weight: 800; line-height: 1.1; margin-bottom: 25px; }
+.hero-section h1 span { color: #ef4444; }
+.hero-text { max-width: 650px; color: #d1d5db; font-size: 1.08rem; margin-bottom: 30px; }
+.hero-buttons { display: flex; gap: 15px; flex-wrap: wrap; }
+.hero-buttons .btn { border-radius: 10px; padding: 12px 25px; font-weight: 600; }
+.hero-card { padding: 40px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 24px; backdrop-filter: blur(10px); text-align: center; }
+.emergency-symbol { width: 80px; height: 80px; margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; background: #dc2626; border-radius: 50%; font-size: 3rem; font-weight: bold; }
+.hero-card h3 { margin-bottom: 10px; }
+.hero-card p { color: #d1d5db; }
+.quick-stat-row { display: flex; justify-content: space-around; margin-top: 30px; border-top: 1px solid rgba(255,255,255,.12); padding-top: 25px; }
+.quick-stat-row div { display: flex; flex-direction: column; }
+.quick-stat-row strong { font-size: 1.4rem; }
+.quick-stat-row small { color: #9ca3af; }
+.section-heading { margin-bottom: 50px; }
+.section-label { display: inline-block; color: #dc2626; font-size: .85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+.section-heading h2, .about-section h2, .contact-box h2 { font-size: clamp(2rem,4vw,3rem); font-weight: 750; color: #111827; margin-bottom: 12px; }
+.section-heading p { color: #6b7280; max-width: 600px; margin: 0 auto; }
+.services-section { padding: 100px 0; background: #f9fafb; }
+.service-card { border: 1px solid #e5e7eb; border-radius: 18px; transition: .3s; overflow: hidden; }
+.service-card:hover { transform: translateY(-7px); box-shadow: 0 15px 35px rgba(0,0,0,.08); border-color: #fecaca; }
+.service-card .card-body { padding: 30px; }
+.service-icon { width: 55px; height: 55px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border-radius: 14px; background: #fee2e2; color: #dc2626; font-weight: 800; font-size: 1.2rem; }
+.service-card .card-title { font-weight: 700; color: #111827; margin-bottom: 12px; }
+.service-card .card-text { color: #6b7280; min-height: 75px; margin-bottom: 20px; }
+.service-card .btn { border-radius: 8px; font-weight: 600; }
+.future-card { border-style: dashed; background: #fafafa; }
+.search-section { padding: 100px 0; background: #fff; }
+.search-box { max-width: 1050px; margin: auto; padding: 50px; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,.04); }
+.form-label { font-weight: 600; color: #374151; }
+.form-control, .form-select { border-radius: 9px; border: 1px solid #d1d5db; padding: 12px 15px; }
+.form-control:focus, .form-select:focus { border-color: #dc2626; box-shadow: 0 0 0 .2rem rgba(220,38,38,.12); }
+.search-results { min-height: 180px; }
+.empty-state { text-align: center; padding: 40px 20px; border: 1px dashed #d1d5db; border-radius: 15px; background: #fff; }
+.empty-icon { font-size: 2rem; margin-bottom: 10px; }
+.empty-state h5 { font-weight: 700; color: #374151; }
+.empty-state p { color: #6b7280; margin-bottom: 0; }
+.about-section { padding: 100px 0; background: #f9fafb; }
+.about-section h2 span { color: #dc2626; }
+.about-section p { color: #6b7280; margin-bottom: 18px; }
+.about-points { margin-top: 25px; }
+.about-point { display: flex; align-items: center; gap: 12px; margin-bottom: 13px; font-weight: 600; color: #374151; }
+.about-point span { display: flex; align-items: center; justify-content: center; width: 25px; height: 25px; border-radius: 50%; background: #dcfce7; color: #16a34a; font-size: .8rem; }
+.about-card { padding: 45px; background: #111827; color: white; border-radius: 25px; box-shadow: 0 20px 40px rgba(17,24,39,.15); }
+.about-card-icon { width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border-radius: 15px; background: #dc2626; font-size: 2rem; }
+.about-card h3 { margin-bottom: 15px; }
+.about-card p { color: #d1d5db; }
+.technology-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 25px; }
+.technology-list span { padding: 6px 12px; border-radius: 20px; background: rgba(255,255,255,.08); color: #e5e7eb; font-size: .8rem; }
+.contact-section { padding: 90px 0; }
+.contact-box { padding: 70px 30px; border-radius: 25px; background: #dc2626; color: white; }
+.contact-box .section-label { color: #fecaca; }
+.contact-box h2 { color: white; }
+.contact-box p { max-width: 600px; margin: 0 auto 25px; color: #fee2e2; }
+.footer { padding: 60px 0 20px; background: #111827; color: #d1d5db; }
+.footer-logo { font-size: 1.5rem; font-weight: 700; color: white; margin-bottom: 15px; }
+.footer-logo span { display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; margin-right: 6px; background: #dc2626; border-radius: 7px; color: white; }
+.footer p { color: #9ca3af; max-width: 500px; }
+.footer h5 { color: white; margin-bottom: 18px; }
+.footer a { display: block; color: #9ca3af; text-decoration: none; margin-bottom: 9px; transition: .3s; }
+.footer a:hover { color: white; padding-left: 4px; }
+.footer hr { border-color: #374151; margin: 35px 0 20px; }
+.footer-bottom { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+.footer-bottom p { margin: 0; font-size: .85rem; }
+.login-modal { border: none; border-radius: 18px; overflow: hidden; }
+.login-modal .modal-header { background: #111827; color: white; border-bottom: none; }
+.login-modal .btn-close { filter: invert(1); }
+.modal-backdrop-custom { position: fixed; inset: 0; z-index: 2000; display: flex; align-items: center; justify-content: center; overflow-y: auto; padding: 1rem; background: rgba(0,0,0,.5); }
+.modal-backdrop-custom .modal-dialog { width: 100%; max-width: 500px; margin: auto; }
+.alert { overflow-wrap: anywhere; }
+@media (max-width: 991px) {
+  .hero-section { padding-top: 120px; }
+  .hero-card { margin-top: 10px; }
+  .nav-link { margin-left: 0; padding: 10px 0; }
+  .login-nav-btn { margin-top: 5px; }
+}
+@media (max-width: 767px) {
+  .hero-section { min-height: auto; padding: 120px 0 70px; }
+  .hero-section h1 { font-size: 2.6rem; }
+  .hero-text { font-size: 1rem; }
+  .hero-buttons { flex-direction: column; }
+  .hero-buttons .btn { width: 100%; }
+  .hero-card { padding: 30px 20px; }
+  .services-section, .search-section, .about-section { padding: 70px 0; }
+  .search-box { padding: 30px 20px; }
+  .about-card { padding: 30px 25px; }
+  .contact-box { padding: 55px 20px; }
+  .footer-bottom { flex-direction: column; gap: 5px; }
+}
+@media (max-width: 480px) {
+  .hero-section h1 { font-size: 2.25rem; }
+  .section-heading h2, .about-section h2 { font-size: 2rem; }
+  .quick-stat-row { gap: 10px; }
+}
+
+
+/* Authentication links */
+.auth-links {
+  margin-top: 18px;
+  text-align: center;
+}
+.auth-link {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #dc2626;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.auth-link:hover {
+  color: #b91c1c;
+  text-decoration: underline;
+}
+.auth-switch-text {
+  margin: 14px 0 0;
+  color: #6b7280;
+  font-size: .92rem;
+}
+
+/* Fix Login and Sign Up Modal Layout */
+
+.modal-backdrop-custom {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.modal-backdrop-custom .modal-dialog {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.login-modal {
+  width: 100%;
+  background: #ffffff;
+  color: #111827;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.login-modal .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  background: #111827;
+  color: #ffffff;
+  border-bottom: none;
+}
+
+.login-modal .modal-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.login-modal .btn-close {
+  filter: invert(1);
+}
+
+.login-modal .modal-body {
+  padding: 24px;
+  background: #ffffff;
+}
+
+.login-modal .mb-3 {
+  margin-bottom: 18px !important;
+}
+
+.login-modal .form-label {
+  display: block;
+  margin-bottom: 7px;
+  color: #374151;
+  font-weight: 600;
+}
+
+.login-modal .form-control {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #111827;
+}
+
+.login-modal .form-control:focus {
+  border-color: #dc2626;
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.12);
+}
+
+.login-modal .btn-danger {
+  min-height: 44px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.auth-links {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.auth-link {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #dc2626;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.auth-link:hover {
+  color: #b91c1c;
+  text-decoration: underline;
+}
+
+.auth-switch-text {
+  margin: 14px 0 0;
+  color: #6b7280;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 480px) {
+  .modal-backdrop-custom {
+    padding: 12px;
+  }
+
+  .login-modal .modal-header,
+  .login-modal .modal-body {
+    padding: 18px;
+  }
+}
